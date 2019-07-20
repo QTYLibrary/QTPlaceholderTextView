@@ -13,6 +13,7 @@
 		60891BEA22E2021B00052F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60891BE922E2021B00052F87 /* Assets.xcassets */; };
 		60891BED22E2021B00052F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60891BEB22E2021B00052F87 /* LaunchScreen.storyboard */; };
 		60891BF022E2021B00052F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60891BEF22E2021B00052F87 /* main.m */; };
+		60891BF922E2030E00052F87 /* QTPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60891BF822E2030E00052F87 /* QTPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		60891BEC22E2021B00052F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60891BEE22E2021B00052F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60891BEF22E2021B00052F87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60891BF722E2030E00052F87 /* QTPlaceholderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTPlaceholderTextView.h; sourceTree = "<group>"; };
+		60891BF822E2030E00052F87 /* QTPlaceholderTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		60891BDF22E2021900052F87 /* QTPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				60891BF622E202E600052F87 /* QTPlaceholderTextView */,
 				60891BE022E2021900052F87 /* AppDelegate.h */,
 				60891BE122E2021900052F87 /* AppDelegate.m */,
 				60891BE322E2021900052F87 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				60891BEB22E2021B00052F87 /* LaunchScreen.storyboard */,
 				60891BEE22E2021B00052F87 /* Info.plist */,
 				60891BEF22E2021B00052F87 /* main.m */,
+			);
+			path = QTPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		60891BF622E202E600052F87 /* QTPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				60891BF722E2030E00052F87 /* QTPlaceholderTextView.h */,
+				60891BF822E2030E00052F87 /* QTPlaceholderTextView.m */,
 			);
 			path = QTPlaceholderTextView;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			files = (
 				60891BE522E2021900052F87 /* ViewController.m in Sources */,
 				60891BF022E2021B00052F87 /* main.m in Sources */,
+				60891BF922E2030E00052F87 /* QTPlaceholderTextView.m in Sources */,
 				60891BE222E2021900052F87 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,8 +300,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V36526T8FR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QTPlaceholderTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,8 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V36526T8FR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QTPlaceholderTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
